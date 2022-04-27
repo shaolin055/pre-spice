@@ -1,0 +1,5 @@
+function ret=notation()
+clc
+sprintf('A(Impedance)=[Node1    Node2    Value of part   Identification];\n\nB(Independent source)=[1st node   2nd node   Value   Frequency   Phase angle   Identification];\n\nC(Dependent source)=[1st node of source   2nd node of source   Reference 1   Reference2   Identification   Multiplication factor]\n\n---------------------------------------------------------------------------------------------------------------------------------\n\n\t\t\tIdentifications:\n\nImpedance:\n\t\t\t0 -> Resistor\n\t\t\t1 -> Capacitor\n\t\t\t2 -> Inductor\n\nIndependent Source:\n\t\t\t0 -> Current Source\n\t\t\t1 -> Voltage Source\n\nDependent Source:\n\t\t\t1 -> Voltage Controled Voltage Source\n\t\t\t2 -> Voltage Controled Current Source\n\t\t\t3 -> Current Controled Voltage Source\n\t\t\t4 -> Current Controled Current Source')
+%x=input('');
+%circuit();
